@@ -1,0 +1,3 @@
+mnemonic>=0.20
+ecdsa>=0.18
+pycryptodome>=3.15
