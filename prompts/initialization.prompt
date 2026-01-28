@@ -1,0 +1,10 @@
+1. Please analyze the source code of index.py
+2. My goal is to recover my wallets using seed phrases which I have from my hardware wallet Trezor 5
+3. Please provide a README, .gitignore, and LICENSE (which should be a private license)
+4. Revise the index.py into multiple files for better maintenance, and put them in the src folder at root (you can create subfolders if you need to split the index.py file into more files)
+5. It's important to make this project work as a CLI, so the presentation layer should support a set of command line actions, and the logic can go to the upper layers (application, infrastructure)
+6. Please write a unit test for the application, which will generate valid seed phrases and create actual wallets (supported wallets), and it will use the application to generate the private keys of those wallets from seed phrases, and make sure the tests pass with no problems
+7. Also this application should support generating wallets and creating seed phrases
+8. Don't panic and do it right
+9. Take your time and do it right
+10. This is a console application
